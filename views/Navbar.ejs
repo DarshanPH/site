@@ -1,0 +1,419 @@
+<%- include('index.ejs') %>
+
+<div class="work-area">
+  <div class="my-space">
+    <h2>Navigation Bar</h2>
+    <p>
+      A powerful, responsive navigation header, the navbar. Includes support for
+      branding, navigation, and more
+    </p>
+    <br />
+    <h2>Overview</h2>
+    <p>
+      A Responsive navigation bar, all you can see is set it default you can
+      make your own style, and own content by simple removing and adding
+      existing names.
+    </p>
+    <br />
+    <p>
+      There are 4 types of different styling exist with different flexbox so you
+      can Rename as <b class="red"> navbar-style1 </b>,
+      <b class="red"> navbar-style2 </b> <b class="red"> navbar-style3 </b>,
+      <b class="red"> navbar-style4 </b>
+    </p>
+
+    <div class="image-box">
+      <img
+        src="/images/Navbar/styleui-blacknavbar-style1.png"
+        class="navbar-tutorial-image"
+        alt="hello"
+      />
+
+      <div class="code-section">
+        <pre>
+          <code class="language-html">
+            <xmp>
+              <Navbar bg="nav-style1 nav-black divider" brand_name="Style-UI">
+                <NavItem
+                  item="home"
+                  as="/home"
+                  color="white-color"
+                  hover="hover-color1-txt"
+                  icon_class="fas fa-home"
+                />
+                <NavItem
+                  item="About"
+                  as="/about"
+                  color="white-color"
+                  hover="hover-color1-txt"
+                  icon_class="fas fa-user"
+                />
+                <NavItem
+                  item="About"
+                  as="/home"
+                  color="white-color"
+                  hover="hover-color1-txt"
+                  icon_class="fas fa-user"
+                />
+                <input type="text" placeholder="search here" className="input-type1" />
+                <Button class="ui-button green-basic-button radius-r">
+                  <i class="fas fa-search"></i>
+                </Button>
+              </Navbar>
+            </xmp>
+          </code>
+        </pre>
+      </div>
+      <br />
+    </div>
+    <h3>Navbar Component</h3>
+    <br />
+    <p>
+      Navbar component consisting of 2 fields, <b>bg</b> and <b>brand_name</b>
+      <b> brand_name </b> represent the brand name of your business or
+      organization. you can even add image by adding <b> img tag. </b> the bg
+      field accept 3 parameters those are
+      <b>navbar style, background color, and divider</b>
+    </p>
+    <br />
+    <h3>NavItem Component</h3>
+    <br />
+    <p>
+      The component accept four paramaters those are listed below
+      <div class="code-section">
+        <code class="language-html">
+          <xmp>
+            <NavItem item="About" as="/about" color="white-color" hover="hover-color1-txt" icon_class="fas fa-user" />
+          </xmp>
+        </code>
+      </div>
+      <li>item respresnts item name</li>
+      <li><b> as </b> is the url of the item</li>
+      <li><b> color </b> represents text color</li>
+      <li><b> hover </b> represents hover color</li>
+      <li><b>icon_class</b> represents class of font awesome</li>
+    </p>
+    <br>
+    <h3> Input Component </h3>
+    <br>
+    <p> Input form component, it is the same as the JSX format code class <b>input-type1</b> represent input style </p>
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          <input type="text" placeholder="search here" className="input-type1" />
+        </xmp>
+      </code>
+    </div>
+    <br>
+    <h3> Button Component </h3>
+    <br>
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          <Button class="ui-button green-basic-button radius-r">
+            <i class="fas fa-search"></i>
+          </Button>
+        </xmp>
+      </code>
+    </div>
+    <br>
+    <p> Button component button class makes button-color, radius, width, and many more. fot more detail check out Button Component block.</p>
+      <br />
+
+      <div class="image-box">
+        <img
+          src="/images/Navbar/styleui-greynavbar-style2.png"
+          class="navbar-tutorial-image"
+          alt="hello"
+        />
+  
+        <div class="code-section">
+          <pre>
+            <code class="language-html">
+              <xmp>
+                <Navbar bg="nav-style2 nav-grey divider" brand_name="Brand Name">
+                  <NavItem
+                    item="home"
+                    as="/home"
+                    color="yellow-color"
+                    hover="hover-color1-txt"
+                    icon_class="fas fa-home"
+                  />
+                  <NavItem
+                    item="About"
+                    as="/about"
+                    color="yellow-color"
+                    hover="hover-color1-txt"
+                    icon_class="fas fa-user"
+                  />
+                  <NavItem
+                    item="About"
+                    as="/home"
+                    color="yellow-color"
+                    hover="hover-color1-txt"
+                    icon_class="fas fa-user"
+                  />
+                  <Button class="ui-button green-basic-button radius-r">
+                    Sign In
+                  </Button>
+                </Navbar>
+              </xmp>
+            </code>
+          </pre>
+        </div>
+        <br />
+      </div>
+      <br>
+
+      <h3> Type 3 Navigation Bar With Logo </h3>
+      <div class="image-box">
+        <img
+          src="/images/Navbar/styleui-whitenav-style3.png"
+          class="navbar-tutorial-image"
+          alt="hello"
+        />
+  
+        <div class="code-section">
+          <pre>
+            <code class="language-html">
+              <xmp>
+                <Navbar bg="nav-style3 nav-white divider" Logo={Logo}>
+                  <NavItem
+                    item="Join Now"
+                    as="/home"
+                    color="black-color"
+                    hover="hover-color1-txt"
+                    icon_class=""
+                  />
+                  <button className="ui-button blue-inverted-button radius-r">Sign In</button>
+                </Navbar>
+              </xmp>
+            </code>
+          </pre>
+        </div>
+      </div>
+      <br>
+        <p> <b> nav-style3 </b> type styling. many of the website such as linked in, 
+          facebook uses this type aligned navigation bar. 
+          here the heright is set as auto and width is 50 so you can primarily 
+          set your logo size.</p>
+        <p> <b>Inverted Button</b> component is used for Sign In button, fore more details check out Button section.</p>
+        <br>
+        <h3> 6 Different Background Colors Exist </h3>
+        <ol>
+          <li> Black </li>
+          <li> White </li>
+          <li> Grey </li>
+          <li> Green </li>
+          <li> Purple </li>
+          <li> Orange </li>
+        </ol>
+        <br>
+        <h4> Black Navbar </h4>
+        <div class="image-box">
+          <img
+            src="/images/Navbar/styleui-blacknavbar.png"
+            class="navbar-tutorial-image"
+            alt="hello"
+          /></div>
+          <div class="code-section">
+            <code class="language-html">
+              <xmp>
+                <Navbar bg="nav-style2 nav-black divider" brand_name="Brand Name" display="no">
+                </Navbar>
+              </xmp>
+            </code>
+          </div>
+            <br>
+          <h4> Purple Navbar </h4>
+          <div class="image-box">
+          <img
+            src="/images/Navbar/styleui-purplenavbar.png"
+            class="navbar-tutorial-image"
+            alt="hello"
+          /></div>
+          <div class="code-section">
+            <code class="language-html">
+              <xmp>
+                <Navbar bg="nav-style2 nav-purple divider" brand_name="Brand Name" display="no">
+                </Navbar>
+              </xmp>
+            </code>
+          </div>
+          <br>
+          <h4> Green Navbar </h4>
+          <div class="image-box">
+            <img
+              src="/images/Navbar/styleui-greennavbar.png"
+              class="navbar-tutorial-image"
+              alt="hello"
+            /></div>
+            <div class="code-section">
+              <code class="language-html">
+                <xmp>
+                  <Navbar bg="nav-style2 nav-green divider" brand_name="Brand Name" display="no">
+                  </Navbar>
+                </xmp>
+              </code>
+            </div>
+            <br>
+            <h4> Grey Navbar </h4>
+            <div class="image-box">
+              <img
+                src="/images/Navbar/styleui-greynavbar.png"
+                class="navbar-tutorial-image"
+                alt="hello"
+              /></div>
+              <div class="code-section">
+                <code class="language-html">
+                  <xmp>
+                    <Navbar bg="nav-style2 nav-grey divider" brand_name="Brand Name" display="no">
+                    </Navbar>
+                  </xmp>
+                </code>
+              </div>
+              <br>
+              <h4> Orange Navbar </h4>
+              <div class="image-box">
+                <img
+                  src="/images/Navbar/styleui-orangenavbar.png"
+                  class="navbar-tutorial-image"
+                  alt="hello"
+                /></div>
+                <div class="code-section">
+                  <code class="language-html">
+                    <xmp>
+                      <Navbar bg="nav-style2 nav-orange divider" brand_name="Brand Name" display="no">
+                      </Navbar>
+                    </xmp>
+                  </code>
+                </div>
+                <br>
+
+                <h3> Type 4 Navigation Bar </h3>
+                <div class="image-box">
+                  <img
+                    src="/images/Navbar/styleui-blacknav-style4.png"
+                    class="navbar-tutorial-image"
+                    alt="hello"
+                  />
+            
+                  <div class="code-section">
+                    <pre>
+                      <code class="language-html">
+                        <xmp>
+                        <Navbar bg="nav-style4 nav-black divider" brand_name="Brand Name" display="no">
+                          <NavItem
+                            item="C Programming"
+                            as="/c"
+                            color="white-color"
+                            hover="hover-color1-txt active"
+                            icon_class="fas fa-home"
+                          />
+                          <NavItem
+                            item="C++ programming"
+                            as="/c++"
+                            color="white-color"
+                            hover="hover-color1-txt"
+                            icon_class="fas fa-user"
+                          />
+                          <NavItem
+                            item="java programming"
+                            as="/java"
+                            color="white-color"
+                            hover="hover-color1-txt"
+                            icon_class="fas fa-user"
+                          />
+                          <NavItem
+                            item="Web Development"
+                            as="/web"
+                            color="white-color"
+                            hover="hover-color1-txt"
+                            icon_class="fas fa-user"
+                          />
+                          <NavItem
+                            item="Javascript"
+                            as="/javascript"
+                            color="white-color"
+                            hover="hover-color1-txt"
+                            icon_class="fas fa-user"
+                          />
+                          </Navbar>
+                        </xmp>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+                <br>
+                <h4> Available Colors </h4><br>
+                <li> White-color </li>
+                <li> red-color </li>
+                <li> pink-color </li>
+                <li> purple-color </li>
+                <li> orange-color </li>
+                <li> blue-color </li>
+                <li> yellow-color </li>
+                <li> olive-color </li>
+                <li> green-color </li>
+                <li> black-color </li>
+                <li> grey-color </li>
+                <li> teal-color </li>
+                <li> tomato-color </li>
+                <li> wheat-color </li>
+                <li> cyan-color </li>
+                <br>
+                <h4> Hover Colors </h4><br>
+                <li> hover-color1-txt : <b> lightblue </b> </li>
+                <li> hover-color2-txt : <b> red </b> </li>
+                <li> hover-color3-txt : <b> green </b> </li>
+                <li> hover-color4-txt : <b> orange </b> </li>
+                <li> hover-color5-txt : <b> purple </b> </li>
+                <li> hover-color6-txt : <b> white </b> </li>
+                <li> hover-color7-txt : <b> orangered </b> </li>
+                <li> hover-color8-txt : <b> pink </b> </li>
+                <p> All <b> hover </b> transition time is 0.5 sec and font-eight is 800</p>
+                <br>
+                <h4> Responsive Mobile Navbar View </h4>
+                <div class="image-box">
+                  <img
+                    src="/images/Navbar/styleui-mobilenavbar.png"
+                    class=""
+                    alt="mobile-navbar"
+                  /></div>
+                  <p> Responsive mobile view active when the width is lesser then 768 Pixels. mobile navbar <b> ON </b> and <b>OFF</b> depends on javascript code </p>
+                  <br>
+                  <h4> Responsive Mobile Navbar Menu </h4>
+                  <div class="image-box">
+                    <img
+                      src="/images/Navbar/styleui-mobilemenu.png"
+                      class=""
+                      alt="mobile-navbar"
+                    /></div>
+                    <div class="code-section">
+                      <pre>
+                      <code class="language-html">
+                        <xmp>
+                          const bars = "fas fa-align-justify"
+                          const close = "fas fa-times-circle"
+                          const mobile_class = "navlink active"
+
+                          const [click, newclick] = useState(bars);
+                          const [mobile_menue, set_mobile_menue] = useState("navlink")
+
+                          const icon_click_handler = (event) => {
+                              event.preventDefault();
+                              if (click === bars) {
+                                  set_mobile_menue(mobile_class)
+                                  newclick(close)
+                              } else {
+                                  set_mobile_menue("navlink")
+                                  newclick(bars)
+                              }
+                          }
+                        </xmp>
+                      </code>
+                    </pre>
+                    </div>
+                    <br>
+                </div> 
+              </div>

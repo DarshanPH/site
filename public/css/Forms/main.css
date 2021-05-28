@@ -1,0 +1,838 @@
+hr {
+  margin-top: 20px;
+}
+
+p, small, a {
+  margin: 10px 0;
+  letter-spacing: 1pt;
+  text-decoration: none;
+}
+
+.signup_section {
+  display: unset;
+}
+
+.signup_section_disable {
+  display: none;
+}
+
+.signin_section {
+  display: unset;
+}
+
+.signin_section_disable {
+  display: none;
+}
+
+.grey {
+  background-color: #e4e1e1;
+}
+
+.form-group1, .form-group2, .form-group3 {
+  background-color: #e7e7e7;
+}
+
+.form-group1 {
+  padding: 20px;
+  -webkit-box-shadow: 0 0 2px 0 black;
+          box-shadow: 0 0 2px 0 black;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bar-left {
+  border-top: 2px solid #747171;
+  width: 30%;
+  position: relative;
+  top: 22px;
+  left: 5%;
+}
+
+.bar-right {
+  border-top: 2px solid #747171;
+  width: 30%;
+  position: relative;
+  top: 22px;
+  left: 65%;
+}
+
+.form-group2, .form-group3 {
+  margin: 10px;
+  padding: 20px;
+  width: auto;
+  -webkit-box-shadow: 0 0 2px 0 black;
+          box-shadow: 0 0 2px 0 black;
+}
+
+@media (max-width: 750px) {
+  .form-group2, .form-group3 {
+    position: unset;
+    margin: 10px;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 2px 0 black;
+            box-shadow: 0 0 2px 0 black;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.form-name {
+  font-weight: 800;
+  text-align: center;
+  font-size: 26px;
+}
+
+.form-item {
+  margin-left: 6%;
+}
+
+.form-item-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-name1 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-input1 {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.form-input2 {
+  padding: 10px;
+  width: 40%;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+.form-input3 {
+  padding: 10px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.form-toggle-button {
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.form-toggle-button.active {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #f31729;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1pt;
+  width: 50%;
+}
+
+.ui-button {
+  margin: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.radius-r {
+  border-radius: 10px;
+}
+
+.radius-2r {
+  border-radius: 15px;
+}
+
+.radius-3r {
+  border-radius: 25px;
+}
+
+.button-menue {
+  margin: 20px 18%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #302f2f;
+  height: auto;
+  padding: 20px;
+}
+
+.red-basic-button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.red-basic-button:hover {
+  background-color: #bb0303;
+}
+
+.orange-basic-button {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.orange-basic-button:hover {
+  background-color: #c98508;
+}
+
+.yellow-basic-button {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+.yellow-basic-button:hover {
+  background-color: #bebe04;
+}
+
+.blue-basic-button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.blue-basic-button:hover {
+  background-color: #033e97;
+}
+
+.pink-basic-button {
+  background-color: pink;
+  color: black;
+  cursor: pointer;
+}
+
+.pink-basic-button:hover {
+  background-color: #f3a0ae;
+}
+
+.coral-basic-button {
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+.coral-basic-button:hover {
+  background-color: #e4673a;
+}
+
+.violet-basic-button {
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+}
+
+.violet-basic-button:hover {
+  background-color: #cf57cf;
+}
+
+.teal-basic-button {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+.teal-basic-button:hover {
+  background-color: #035555;
+}
+
+.purple-basic-button {
+  background-color: #a015a0;
+  color: white;
+  cursor: pointer;
+}
+
+.purple-basic-button:hover {
+  background-color: #7c0e7c;
+}
+
+.green-basic-button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.green-basic-button:hover {
+  background-color: #025c02;
+}
+
+.greenyellow-basic-button {
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+}
+
+.greenyellow-basic-button:hover {
+  background-color: #84d10f;
+}
+
+.grey-basic-button {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.grey-basic-button:hover {
+  background-color: #5c5a5a;
+}
+
+.black-basic-button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.black-basic-button:hover {
+  background-color: #2e2d2d;
+}
+
+.brown-basic-button {
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.brown-basic-button:hover {
+  background-color: #8b1414;
+}
+
+.red-inverted-button {
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+}
+
+.red-inverted-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.green-inverted-button {
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+}
+
+.green-inverted-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.orange-inverted-button {
+  border: 2px solid orange;
+  background-color: transparent;
+  color: orange;
+}
+
+.orange-inverted-button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.yellow-inverted-button {
+  border: 2px solid yellow;
+  background-color: transparent;
+  color: yellow;
+}
+
+.yellow-inverted-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.blue-inverted-button {
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+}
+
+.blue-inverted-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.pink-inverted-button {
+  border: 2px solid pink;
+  background-color: transparent;
+  color: pink;
+}
+
+.pink-inverted-button:hover {
+  background-color: pink;
+  color: black;
+}
+
+.pink-inverted-button {
+  border: 2px solid pink;
+  background-color: transparent;
+  color: pink;
+}
+
+.pink-inverted-button:hover {
+  background-color: pink;
+  color: black;
+}
+
+.violet-inverted-button {
+  border: 2px solid violet;
+  background-color: transparent;
+  color: violet;
+}
+
+.violet-inverted-button:hover {
+  background-color: violet;
+  color: white;
+}
+
+.teal-inverted-button {
+  border: 2px solid teal;
+  background-color: transparent;
+  color: teal;
+}
+
+.teal-inverted-button:hover {
+  background-color: teal;
+  color: white;
+}
+
+.purple-inverted-button {
+  border: 2px solid purple;
+  background-color: transparent;
+  color: purple;
+}
+
+.purple-inverted-button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.greenyellow-inverted-button {
+  border: 2px solid greenyellow;
+  background-color: transparent;
+  color: greenyellow;
+}
+
+.greenyellow-inverted-button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.grey-inverted-button {
+  border: 2px solid grey;
+  background-color: transparent;
+  color: grey;
+}
+
+.grey-inverted-button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.black-inverted-button {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+}
+
+.black-inverted-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.brown-inverted-button {
+  border: 2px solid brown;
+  background-color: transparent;
+  color: brown;
+}
+
+.brown-inverted-button:hover {
+  background-color: brown;
+  color: white;
+}
+
+.red-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.red-inverted-basic-button:hover {
+  border: 2px solid red;
+  color: red;
+}
+
+.green-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.green-inverted-basic-button:hover {
+  border: 2px solid green;
+  color: green;
+}
+
+.orange-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.orange-inverted-basic-button:hover {
+  border: 2px solid orange;
+  color: orange;
+}
+
+.yellow-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.yellow-inverted-basic-button:hover {
+  border: 2px solid yellow;
+  color: yellow;
+}
+
+.green-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.green-inverted-basic-button:hover {
+  border: 2px solid green;
+  color: green;
+}
+
+.green-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.green-inverted-basic-button:hover {
+  border: 2px solid green;
+  color: green;
+}
+
+.blue-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.blue-inverted-basic-button:hover {
+  border: 2px solid blue;
+  color: blue;
+}
+
+.pink-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.pink-inverted-basic-button:hover {
+  border: 2px solid pink;
+  color: pink;
+}
+
+.violet-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.violet-inverted-basic-button:hover {
+  border: 2px solid violet;
+  color: violet;
+}
+
+.teal-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.teal-inverted-basic-button:hover {
+  border: 2px solid teal;
+  color: teal;
+}
+
+.purple-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.purple-inverted-basic-button:hover {
+  border: 2px solid purple;
+  color: purple;
+}
+
+.greenyellow-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.greenyellow-inverted-basic-button:hover {
+  border: 2px solid greenyellow;
+  color: greenyellow;
+}
+
+.grey-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.grey-inverted-basic-button:hover {
+  border: 2px solid grey;
+  color: grey;
+}
+
+.black-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.black-inverted-basic-button:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.brown-inverted-basic-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.brown-inverted-basic-button:hover {
+  border: 2px solid brown;
+  color: brown;
+}
+
+.hover-effect1:hover {
+  -webkit-transition: 0.8s ease-out;
+  transition: 0.8s ease-out;
+  font-size: 16px;
+}
+
+.hover-effect2:hover {
+  -webkit-box-shadow: 0 0 5px solid black;
+          box-shadow: 0 0 5px solid black;
+  font-weight: 800;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.red-button {
+  background-color: transparent;
+  color: red;
+  border: 2px solid red;
+}
+
+.red-button:hover {
+  color: #bd0505;
+  border: 2px solid #b10202;
+}
+
+.orange-button {
+  background-color: transparent;
+  color: orange;
+  border: 2px solid orange;
+}
+
+.orange-button:hover {
+  color: #cf8804;
+  border: 2px solid #cc8604;
+}
+
+.green-button {
+  background-color: transparent;
+  color: green;
+  border: 2px solid green;
+}
+
+.green-button:hover {
+  color: #026302;
+  border: 2px solid #016101;
+}
+
+.yellow-button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.yellow-button:hover {
+  color: #c4c404;
+  border: 2px solid #adad02;
+}
+
+.blue-button {
+  background-color: transparent;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.blue-button:hover {
+  color: #0606be;
+  border: 2px solid #0404bb;
+}
+
+.pink-button {
+  background-color: transparent;
+  color: pink;
+  border: 2px solid pink;
+}
+
+.pink-button:hover {
+  color: #e7abb5;
+  border: 2px solid #e7a5b0;
+}
+
+.violet-button {
+  background-color: transparent;
+  color: violet;
+  border: 2px solid violet;
+}
+
+.violet-button:hover {
+  color: #e7919f;
+  border: 2px solid #e797a4;
+}
+
+.teal-button {
+  background-color: transparent;
+  color: teal;
+  border: 2px solid teal;
+}
+
+.teal-button:hover {
+  color: #016464;
+  border: 2px solid #016868;
+}
+
+.purple-button {
+  background-color: transparent;
+  color: purple;
+  border: 2px solid purple;
+}
+
+.purple-button:hover {
+  color: #5e025e;
+  border: 2px solid #5a015a;
+}
+
+.greenyellow-button {
+  background-color: transparent;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+}
+
+.greenyellow-button:hover {
+  color: #8cda19;
+  border: 2px solid #8cdb15;
+}
+
+.grey-button {
+  background-color: transparent;
+  color: grey;
+  border: 2px solid grey;
+}
+
+.grey-button:hover {
+  color: #636060;
+  border: 2px solid #6d6b6b;
+}
+
+.black-button {
+  background-color: transparent;
+  color: #202020;
+  border: 2px solid #1d1d1d;
+}
+
+.black-button:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.brown-button {
+  background-color: transparent;
+  color: brown;
+  border: 2px solid brown;
+}
+
+.brown-button:hover {
+  color: #9c1e1e;
+  border: 2px solid #a52121;
+}
+
+.facebook-button {
+  background-color: #4316e7;
+  color: white;
+}
+
+.twitter-button {
+  background-color: #26aceb;
+  color: white;
+}
+
+.youtube-button {
+  background-color: red;
+  color: white;
+}
+
+.insta-button {
+  background-color: orange;
+  color: white;
+}
+
+.small {
+  width: auto;
+}
+
+.medium {
+  width: 200px;
+}
+
+.large {
+  width: 400px;
+}
+
+.full-width {
+  width: 90%;
+  height: 50px;
+}
+/*# sourceMappingURL=main.css.map */

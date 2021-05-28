@@ -1,0 +1,130 @@
+.spinner-1 svg {
+    overflow: visible;
+    animation: rotation 2455ms infinite linear;
+}
+
+.smm{
+    width: 10%;
+    height: 10%;
+}
+
+.sm{
+    width: 20%;
+    height: 20%;
+}
+
+.md{
+    width: 40%;
+    height: 40%;
+}
+
+.mdd{
+    width: 60%;
+    height: 60%;
+}
+
+.lg{
+    width: 80%;
+    height: 80%;
+}
+
+.lgg{
+    width: 100%;
+    height: 100%;
+}
+
+.spinner-1 circle {
+    stroke: currentColor;
+    stroke-dasharray: 44px;
+    stroke-dashoffset: 11px;
+    transform-origin: center;
+    transform: rotatey(180deg) rotate(90deg);
+    animation: spinner 3850ms infinite ease;
+}
+
+@keyframes spinner-1 {
+    0% {
+        stroke-dashoffset: 33px;
+        transform: rotatey(0deg) rotate(0deg);
+    }
+    25% {
+        stroke-dashoffset: 11px;
+        transform: rotatey(0deg) rotate(0deg);
+    }
+    25.0001% {
+        stroke-dashoffset: 11px;
+        transform: rotatey(180deg) rotate(270deg);
+    }
+    50% {
+        stroke-dashoffset: 33px;
+        transform: rotatey(180deg) rotate(270deg);
+    }
+    50.0001% {
+        stroke-dashoffset: 33px;
+        transform: rotatey(0deg) rotate(180deg);
+    }
+    75% {
+        stroke-dashoffset: 11px;
+        transform: rotatey(0deg) rotate(180deg);
+    }
+    75.0001% {
+        stroke-dashoffset: 11px;
+        transform: rotatey(180deg) rotate(90deg);
+    }
+    100% {
+        stroke-dashoffset: 33px;
+        transform: rotatey(180deg) rotate(90deg);
+    }
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Template CSS */
+
+.red {
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.black{
+    color: black;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.pink{
+    color: pink;
+}
+
+.purple{
+    color: purple;
+}
+
+.grey{
+    color: grey;
+}
+
+.spin{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 0 2px 0 black;
+}
