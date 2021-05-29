@@ -1,8 +1,12 @@
 .simple-footer {
-  margin: 20px 0;
   min-height: 50px;
   font-weight: 500;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }
 
 .bg-blue {
@@ -20,7 +24,40 @@
   background-color: grey;
 }
 
+.bg-grey {
+  padding: 20px;
+  background-color: green;
+}
+
+.bg-orange {
+  padding: 20px;
+  background-color: orange;
+}
+
+.bg-purple {
+  padding: 20px;
+  background-color: purple;
+}
+
+.bg-indigo {
+  padding: 20px;
+  background-color: indigo;
+}
+
+.bg-white {
+  padding: 20px;
+  background-color: #d1c7c7;
+}
+
 .white {
   color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.black {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

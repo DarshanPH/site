@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+p {
+  color: grey;
+}
+
 .bg-blue {
   padding: 20px;
   background-color: blue;

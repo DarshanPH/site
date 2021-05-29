@@ -4,13 +4,37 @@
 
 <div class="work-area">
   <div class="my-space">
-    <h1> Footers </h1>
+    <h1>Footers</h1>
     <br />
+    <p>
+      A footer is an additional navigation method for websites. It can hold
+      links, buttons, company info, copyrights, forms and many other elements.
+    </p>
+
+    <h2>Basic Footers</h2>
+    <br />
+    you can add site and copyright information in this.
 
     <div class="simple-footer">
       <div class="bg-black white">
         The sample text goes here. This is the dummy text of the footer
       </div>
+    </div>
+
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+          <div className="simple-footer">
+            <div className="bg-black white">
+              The sample text goes here. This is the dummy text of the footer
+            </div>
+          </div>
+        </Footer>
+      </xmp>
+      </code>
+      </pre>
     </div>
 
     <div class="simple-footer">
@@ -19,13 +43,228 @@
       </div>
     </div>
 
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+          <div className="simple-footer">
+            <div className="bg-blue white">
+              The sample text goes here. This is the dummy text of the footer
+            </div>
+          </div>
+        </Footer>
+      </xmp>
+      </code>
+      </pre>
+    </div>
+
     <div class="simple-footer">
       <div class="bg-grey white">
         The sample text goes here. This is the dummy text of the footer
       </div>
     </div>
 
-    <%- include('footer1.ejs') %>
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+          <div className="simple-footer">
+            <div className="bg-blue white">
+              The sample text goes here. This is the dummy text of the footer
+            </div>
+          </div>
+        </Footer>
+      </xmp>
+      </code>
+      </pre>
+    </div>
+
+    <p>
+      The class name <b> Simple-footer </b> contains height, width, and other
+      neccessary styling. The ClassName<b>bg-blue white</b> represents
+      background color and text color. The <b>bg-blue</b> for blue background
+      color and <b> white </b> represents text color.
+    </p>
+    <br />
+    <h3>How To Change The Color</h3>
+    <br />
+    <p>
+      Rename the existing class name into your choice. Available colors are
+      listed below
+    </p>
+    <br />
+    <li>bg-black: <b> Black Background </b></li>
+    <li>bg-blue: <b> Blue Background </b></li>
+    <li>bg-grey: <b> Grey Background </b></li>
+    <li>bg-purple: <b> Purple Background </b></li>
+    <li>bg-orange: <b> Orange Background </b></li>
+    <li>bg-purple: <b> Purple Background </b></li>
+    <li>bg-indigo: <b> Purple Background </b></li>
+    <li>bg-white: <b> White Background </b></li>
+    <br />
+    <h2>Modern Footer</h2>
+    <br />
+    <h2>Footer With Link</h2>
+    <br />
+    <div class="simple-footer">
+      <div class="bg-black white">
+        <a href="#" style="color: red"> example.com </a> 2021 All Rights
+        Reserved
+      </div>
+    </div>
+
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+          <div className="simple-footer">
+            <div className="bg-black white">
+              <a href="#"> example.com </a> 2021 All Rights Reserved
+            </div>
+          </div>
+        </Footer>
+      </xmp>
+      </code>
+      </pre>
+    </div>
+
+    Modern Fotter contains grid view. you can add all neccessary information
+    such as links, images, images, address, copyright blocks and many more.
+    nowadays most of the websites are using this type of footers. <%-
+    include('footer1.ejs') %>
+
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+        <footer>
+          <div className="column">
+            <a className="footer_title">COMPANY_NAME</a>
+            <p> dummy text of style-ui goes here. 
+              you can add your company information</p>
+            <a href="#" title="Facebook">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="#" title="Instagram">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="#" title="Twitter">
+              <i className="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div className="column">
+            <a className="footer_title">OTHER LINKS</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Ticket</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div className="column">
+            <a className="footer_title">SHORT CUT</a>
+            <a href="">Our Services</a>
+            <a href="">Our Blog</a>
+            <a href="">Our Projects</a>
+            <a href="">About Us</a>
+          </div>
+          <div className="column">
+            <a className="footer_title">LATEST NEWS</a>
+            <a href="" title="Lorem ipsum dolor sit amet">
+              <img src="https://source.unsplash.com/50x50/?green,trees" />
+            </a>
+            <a href="" title="Lorem ipsum dolor sit amet">
+              <img src="https://source.unsplash.com/50x50/?green,tree" />
+            </a>
+            <a href="" title="Lorem ipsum dolor sit amet">
+              <img src="https://source.unsplash.com/50x50/?green,plant" />
+            </a>
+            <a href="" title="Lorem ipsum dolor sit amet">
+              <img src="https://source.unsplash.com/50x50/?green,forest" />
+            </a>
+            <a href="" title="Lorem ipsum dolor sit amet">
+              <img src="https://source.unsplash.com/50x50/?green,afforestation" />
+            </a>
+          </div>
+          <div className="column">
+            <a className="footer_title">GET IN TOUCH</a>
+            <a title="Address">
+              <i className="fa fa-map-marker"></i> 007, street, province/state,
+              country - zipcode
+            </a>
+            <a href="emailto:" title="Email">
+              <i className="fa fa-envelope"></i> email@serviceprovider.domain
+            </a>
+            <a href="tel:" title="Contact">
+              <i className="fa fa-phone"></i> +(x)-xxxx-xxxxx
+            </a>
+          </div>
+  
+          <div className="sub-footer">
+            © CopyRights 2021 Company_name || All rights reserved
+          </div>
+        </footer>
+      </Footer>
+      </xmp>
+      </code>
+      </pre>
+    </div>
+
     <%- include('footer2.ejs') %>
+
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        <Footer>
+          <footer>
+            <div class="footer">
+              <div class="row">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+    
+              <div class="row">
+                <ul>
+                  <li>
+                    <a href="#">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Services</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Career</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="row">
+                Copyright © 2021 Dummy text - All rights reserved
+              </div>
+            </div>
+          </footer>
+        </Footer>
+      </xmp>
+      </code>
+      </pre>
+    </div>
   </div>
 </div>

@@ -7,7 +7,7 @@ body {
   margin: 20px 0;
   background: #000;
   padding: 30px 0px;
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .footer .row a i {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0% 1%;
 }
 
