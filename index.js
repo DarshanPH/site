@@ -46,6 +46,10 @@ app.get("/footer", function(req,res){
   res.render("Footer.ejs")
 })
 
+app.get("/hover", function(req,res){
+  res.render("Hover.ejs")
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
