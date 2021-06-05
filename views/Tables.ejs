@@ -2,6 +2,62 @@
 <div class="work-area">
   <div class="my-space">
     <h2>Tables</h2>
+    <br />
+    <p> Tables are useful for displaying the information is a systamatic way or table format.</p>
+    <br />
+    <h2> How to import Tables </h2>
+    <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Tables from "react-style-ui/style-ui/Tables";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example usage of Tables </h2>
+    <br />
+    <div class="code-section">
+      <pre>
+          <code class="language-html">
+            <xmp>
+              import Tables from "react-style-ui/style-ui/Tables";
+
+              function App() {
+                return (
+                  <div>
+                    <Tables>
+                      <table className="table-view border">
+                        <thead>
+                          <tr className="center">
+                            <th className="background-red color-white"> F_Name </th>
+                            <th className="background-red color-white"> L_Name </th>
+                            <th className="background-red color-white"> Age </th>
+                            <th className="background-red color-white"> Address </th>
+                            <th className="background-red color-white"> Salary </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr className="center">
+                            <td> Darshan </td>
+                            <td> Hegde </td>
+                            <td> 24 </td>
+                            <td> Sirsi </td>
+                            <td> 1,00,000 </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </Tables>
+                  </div>
+                );
+              }
+
+              export default App;
+
+            </xmp>
+          </code>
+        </pre>
+    </div>
     <div class="image-box">
       <img
         src="/images/Tables/styleui-table1.png"
@@ -163,5 +219,17 @@
           <li> Purple : <b class="red"> hover-darkochid </b></li>
           <li> Orange : <b class="red"> hover-orange </b></li>
           <li> Blue : <b class="red"> hover-blue </b></li>
+
+          <div class="prev">
+            <form action="/button">
+            <button class="pointer" > Prev </button>
+          </form>
+          </div>
+    
+        <div class="next">
+          <form action="/sidebar">
+          <button class="pointer" > Next </button>
+        </form>
+        </div>
   </div>
 </div>

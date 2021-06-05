@@ -11,7 +11,38 @@
       text, pictures, or any other content can be scrolled in a predetermined
       direction (up, down, left, or right) on a computer display,
     </p>
+    <h2> How to import Scroll Bars </h2>
     <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Form from "react-style-ui/style-ui/ScrollBar";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example Usage Of Scroll Bars </h2>
+    <br />
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        import ScrollBar from "react-style-ui/style-ui/ScrollBar";
+
+        function App() {
+          return (
+            <div>
+              <ScrollBar style="style-1" />
+            </div>
+          );
+        }
+
+        export default App;
+      </xmp>
+      </code>
+      </pre>
+    </div><br />
+    <h2> Different Scroll Bars </h2><br />
       <div class="scrollbar" id="style-default">
         <div class="force-overflow"></div>
       </div>
@@ -116,9 +147,18 @@
         </code>
         </pre>
       </div>
-    <br />
 
+      <div class="prev">
+        <form action="/forms">
+        <button class="pointer" > Prev </button>
+      </form>
+      </div>
 
+    <div class="next">
+      <form action="/spinner">
+      <button class="pointer" > Next </button>
+    </form>
+    </div>
 
     </div>
   </div>

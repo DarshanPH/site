@@ -30,6 +30,10 @@ app.get("/scrollbar", function(req,res){
   res.render("ScrollBar")
 })
 
+app.get("/gettingstarted", function(req,res){
+  res.render("gettingstarted")
+})
+
 app.get("/forms", function(req,res){
   res.render("Forms")
 })

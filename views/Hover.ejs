@@ -6,12 +6,59 @@
   <div class="my-space">
     <h2>Hover Effects</h2>
     <br />
-    <h2>Colors</h2>
+    Hover Effect is useful for display something when the mouse is over to some text or image. 
     <br />
     <p>
       8 different colored hover effect exist in style-ui. Those are listed below
     </p>
     <br />
+    <h2>How to import Hover </h2> 
+    <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Hover from "react-style-ui/style-ui/Hover";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example Usage Of Hover </h2>
+    <br />
+    <div class="code-section">
+      <pre>
+          <code class="language-html">
+            <xmp>
+              import Hover from "react-style-ui/style-ui/Hover";
+
+              function App() {
+                return (
+                  <div>
+                    <Hover>
+                      <div ClassName="row cf">
+                        <div ClassName="slide-in four col">
+                          <div ClassName="box">
+                            <span ClassName="original">
+                              <h1>Hover!</h1>
+                              <p>Hover Green</p>
+                            </span>
+                            <div ClassName="overlay bg-green">
+                              <i ClassName="fa fa-user fa-3x" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </Hover>
+                  </div>
+                );
+              }
+
+              export default App;
+
+            </xmp>
+          </code>
+        </pre>
+    </div>
+    <h2>Colors</h2>
     <li>Red<b>bg-red</b></li>
     <li>SkyBlue<b>bg-skyblue</b></li>
     <li>Grey<b>bg-grey</b></li>
@@ -353,5 +400,12 @@
             </code>
             </pre>
     </div>
+
+    <div class="prev">
+      <form action="/footer">
+      <button class="pointer" > Prev </button>
+    </form>
+    </div>
+
   </div>
 </div>

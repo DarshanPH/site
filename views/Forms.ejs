@@ -13,6 +13,60 @@
       <b class="red"> form </b> tag.
     </p>
     <br />
+    <h2> How To Import Forms </h2>
+    <br />
+    <p> Add the below code to your top of the Javascript file.</p>
+    <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Form from "react-style-ui/style-ui/forms";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example Usage Of Forms </h2>
+    <br />
+    <div class="code-section">
+      <pre>
+      <code class="language-html">
+      <xmp>
+        import Form from "react-style-ui/style-ui/forms";
+        import Button from "react-style-ui/style-ui/Button";
+
+        function App() {
+          return (
+            <div>
+              <Form>
+                <form>
+                  <div className="form-group1">
+                    <div class="form-name"> Sign Up </div>
+                    <lable class="form-name1"> Username </lable>
+                    <input type="text" placeholder="username" class="form-input1" />
+                    <lable class="form-name1"> Email </lable>
+                    <input type="email" class="form-input1" placeholder="Email" />
+                    <lable class="form-name1"> Password </lable>
+                    <input
+                      type="password"
+                      className="form-input1"
+                      placeholder="password"
+                    />
+                    <Button class="ui-button green-basic-button radius-r">
+                      Sign Up
+                    </Button>
+                  </div>
+                </form>
+              </Form>
+            </div>
+          );
+        }
+
+        export default App;
+      </xmp>
+      </code>
+      </pre>
+    </div>
+    <br />
     <h2>Sign Up Form 1</h2>
     <br />
     <div class="image-box">
@@ -319,9 +373,17 @@
               </code>
               </pre>
             </div>
-          <br />
 
-
-
+            <div class="prev">
+              <form action="/alert">
+              <button class="pointer" > Prev </button>
+            </form>
+            </div>
+  
+          <div class="next">
+            <form action="/scrollbar">
+            <button class="pointer" > Next </button>
+          </form>
+          </div>
   </div>
 </div>

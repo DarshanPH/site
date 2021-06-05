@@ -10,7 +10,46 @@
       A footer is an additional navigation method for websites. It can hold
       links, buttons, company info, copyrights, forms and many other elements.
     </p>
+    <br />
+    <h2> How to import Footers </h2>
+    <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Footer from "react-style-ui/style-ui/Footer";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example usage of Footers </h2>
+    <br />
+    <div class="code-section">
+      <pre>
+          <code class="language-html">
+            <xmp>
+              import Footer from "react-style-ui/style-ui/Footer";
 
+              function App() {
+                return (
+                  <div>
+                    <Footer>
+                      <div className="simple-footer">
+                        <div className="bg-black white">
+                          The sample text goes here. This is the dummy text of the footer
+                        </div>
+                      </div>
+                    </Footer>
+                  </div>
+                );
+              }
+
+              export default App;
+
+            </xmp>
+          </code>
+        </pre>
+    </div>
+    <br />
     <h2>Basic Footers</h2>
     <br />
     you can add site and copyright information in this.
@@ -266,5 +305,18 @@
       </code>
       </pre>
     </div>
+
+    <div class="prev">
+      <form action="/sidebar">
+      <button class="pointer" > Prev </button>
+    </form>
+    </div>
+
+  <div class="next">
+    <form action="/hover">
+    <button class="pointer" > Next </button>
+  </form>
+  </div>
+
   </div>
 </div>

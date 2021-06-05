@@ -8,6 +8,55 @@
       branding, navigation, and more
     </p>
     <br />
+    <h2> How to import Navabar </h2>
+    <br />
+    <p> Add the below code to your top of the Javascript file </p>
+    <br />
+    <div class="code-section">
+      <code class="language-html">
+        <xmp>
+          import Navbar from "react-style-ui/style-ui/Navbar";
+        </xmp>
+      </code>
+    </div>
+    <br />
+    <h2> Example Usage Of Navbar </h2> 
+    <br />
+    <div class="code-section">
+      <pre>
+          <code class="language-html">
+            <xmp>
+              import Navbar from "react-style-ui/style-ui/Navbar";
+              import NavItem from 'react-style-ui/style-ui/Navitem';
+              import Button from 'react-style-ui/style-ui/Button'
+
+              function App() {
+                return (
+                  <div>
+                    <Navbar bg="nav-style1 nav-black divider" brand_name="Style-UI" display="no">
+                              <NavItem
+                                item="home"
+                                as="/home"
+                                color="white-color"
+                                hover="hover-color1-txt"
+                                icon_class="fas fa-home"
+                              />
+                              <input type="text" placeholder="search here" className="input-type1" />
+                              <Button class="ui-button green-basic-button radius-r">
+                                search
+                              </Button>
+                            </Navbar>
+                  </div>
+                );
+              }
+
+              export default App;
+
+            </xmp>
+          </code>
+        </pre>
+    </div>
+    <br />
     <h2>Overview</h2>
     <p>
       A Responsive navigation bar, all you can see is set it default you can
@@ -414,6 +463,19 @@
                       </code>
                     </pre>
                     </div>
-                    <br>
+                    
+                    <div class="prev">
+                      <form action="/spinner">
+                      <button class="pointer" > Prev </button>
+                    </form>
+                    </div>
+              
+                  <div class="next">
+                    <form action="/button">
+                    <button class="pointer" > Next </button>
+                  </form>
+                  </div>
+
+
                 </div> 
               </div>
