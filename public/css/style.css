@@ -1,8 +1,11 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto+Mono:ital,wght@1,200&display=swap");
 body,
 html {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: 'Merriweather', serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -11,10 +14,25 @@ html {
   background-color: #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   body,
   html {
-    font-size: 1em;
+    font-size: 1rem;
+  }
+}
+
+.nav-item {
+  padding: 10px 30px;
+}
+
+.nav-item:hover {
+  color: red;
+  background-color: unset;
+}
+
+@media (max-width: 1000px) {
+  .nav-item {
+    display: none;
   }
 }
 
@@ -89,11 +107,11 @@ xmp {
   background-color: #20232a;
   color: white;
   width: 100%;
-  max-height: 4em;
+  height: auto;
   position: fixed;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .navbar {
     width: 100%;
     padding: 20px;
@@ -109,19 +127,30 @@ a {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1pt;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: 10px 0;
 }
 
-.sidebar-item:hover,
-a:hover {
-  background-color: grey;
+.sidebar-item a:hover,
+a a:hover {
+  color: red;
+  font-weight: 700;
 }
 
 .brand-name {
+  font-family: 'Pacifico', cursive;
   font-weight: 800;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 26px;
+  padding: 2px 20px;
+  letter-spacing: 3pt;
+  color: red;
+}
+
+@media (max-width: 1000px) {
+  .brand-name {
+    font-size: 2.5rem;
+    padding: 10px;
+  }
 }
 
 .sidebar {
@@ -136,7 +165,7 @@ a:hover {
   position: fixed;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .sidebar {
     display: none;
     position: unset;
@@ -199,7 +228,7 @@ a {
   margin-left: 250px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .work-area {
     margin-left: 5px;
   }
@@ -217,7 +246,7 @@ a {
           box-shadow: 0 0 2px 0 black;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .image-box {
     width: 100%;
     height: auto;
@@ -231,7 +260,7 @@ img.navbar-tutorial-image {
   image-resolution: 300dpi;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   img.navbar-tutorial-image {
     image-resolution: 300dpi;
     width: 100%;
@@ -244,9 +273,9 @@ img.navbar-tutorial-image {
   margin: 110px 20px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .my-space {
-    margin: 150px 20px;
+    margin: 200px 20px;
   }
 }
 
@@ -258,7 +287,7 @@ img.navbar-tutorial-image {
   margin: 0 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .code-section {
     font-size: 26px;
   }
